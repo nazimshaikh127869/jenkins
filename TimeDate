@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage('Print Date and Time') {
+            steps {
+                script {
+                    def now = new Date()
+                    echo "Current date and time: ${now}"
+                }
+            }
+        }
+    }
+}
