@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Repository') {
       steps {
-        git url: 'https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero.git', branch: 'main'
+        git url: 'https://github.com/nazimshaikh127869/jenkins/', branch: 'main'
       }
     }
   }
